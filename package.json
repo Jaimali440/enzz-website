@@ -1,0 +1,9 @@
+{
+  "name": "enzz-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ENZZ marketing site — static HTML/CSS/JS",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  }
+}
