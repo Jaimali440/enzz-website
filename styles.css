@@ -243,7 +243,7 @@ nav{ display:flex; align-items:center; justify-content:space-between; padding:16
 
 .promo-banner{
   position:relative; display:block;
-  max-width:920px; margin:-6px auto 56px; overflow:hidden; isolation:isolate; border-radius:var(--radius-sm);
+  width:100%; margin:-6px 0 56px; overflow:hidden; isolation:isolate; border-radius:var(--radius);
 }
 .promo-banner img{
   width:100%; height:auto; display:block;
@@ -255,7 +255,7 @@ a.promo-banner{ cursor:pointer; }
 a.promo-banner:hover img{ transform:scale(1.02); }
 a.promo-banner:focus-visible{ outline:2px solid var(--gold); outline-offset:-4px; }
 @media (max-width:920px){
-  .promo-banner{ max-width:520px; margin-bottom:40px; margin-top:-4px; }
+  .promo-banner{ margin-bottom:40px; margin-top:-4px; border-radius:var(--radius-sm); }
   .promo-banner img{
     -webkit-mask-image:linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
             mask-image:linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
